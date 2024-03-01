@@ -1,0 +1,131 @@
+.data {
+    /* color: rgba(255, 255, 255, 0.45); */
+    width: 30rem;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 15rem 15rem;
+    grid-template-rows: 210px 40px;
+    grid-template-areas: 
+        "header header"
+        "main sidebar";
+    
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: 700;
+    margin: 0;
+}
+
+h2 {
+    font-size: medium;
+    font-weight: 500;
+    margin: 0;
+}
+
+h3,
+a {
+    font-size: small;
+    font-weight: 300;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.795);
+    cursor: pointer;
+}
+
+h3:hover {
+    text-decoration: underline;
+}
+
+a {
+    letter-spacing: 1px;
+}
+
+a:visited {
+    text-decoration: none;
+}
+/* span {
+    color: rgba(240, 248, 255, 0.4);
+    font-size: larger;
+} */
+
+.contact,
+.email {
+    border-top: solid rgb(99, 211, 148) 0.2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding: 0 10px;
+    align-items: center;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: hsla(146, 44%, 54%, 0.8);
+    backdrop-filter: blur(20px);
+    border-radius: 2px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: header;
+    
+}
+
+.contact {
+    grid-area: main;
+}
+
+.email {
+    grid-area: sidebar;
+}
+
+.subtitle {
+    gap: 0;
+    text-transform: none;
+}
+.subtitle h1{
+    gap: 0;
+    text-transform: uppercase;
+}
+
+.phoneIcon {
+    background: url('C:/Users/annel/Documents/Dev/THEODINPROJECT/teste/valid-phone-number/src/img/phone.png');
+    font-size: 20px;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: block;    
+}
+
+.mailIcon {
+    height: 1.5rem;
+    width: 1.5rem;
+    display: block;
+    background: url('C:/Users/annel/Documents/Dev/THEODINPROJECT/teste/valid-phone-number/src/img/email.png');
+}
+
+.companyIcon {
+    background: url('C:/Users/annel/Documents/Dev/THEODINPROJECT/teste/valid-phone-number/src/img/daily-dev.png');
+    background-size: 12rem;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 7rem;
+    width: 12rem;
+    opacity: .6;
+
+}
+
+img {
+    width: 20px;
+    height: 20px;
+
+}
+
+.alert {
+    width: 512px;
+    padding: 16px;
+    margin: 10px;
+    max-width: 80%;
+}
+
