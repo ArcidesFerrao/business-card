@@ -3,7 +3,7 @@ import React from 'react'
 import './styles/Data.css';
 
 export default function Data(props) {
-    const msg = "";
+    let msg = "";
     
     const copytoClipboard = async (data) => {
         try {

@@ -1,5 +1,4 @@
 .Skeleton {
-    /* animation: scale 4s ; */
     width: 30rem;
     margin: 0;
     display: grid;
@@ -15,7 +14,6 @@
 .title {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     grid-area: header;
 }
 

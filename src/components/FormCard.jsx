@@ -50,14 +50,6 @@ export default function FormCard(props) {
                     <span role='alert' >Company name required</span>
                 )}
             </div>
-
-            <div className="inputArea">
-                <input 
-                    {...register("city", {required: true})}
-                    type='text'
-                    placeholder='City, Country'
-                />
-            </div>
             
             <div className="inputArea">
                 <input 
@@ -72,7 +64,7 @@ export default function FormCard(props) {
             
             <div className="inputArea">
                 <PhoneInput 
-                    {...register("phone", {required: true})} 
+                    {...register("number", {required: true})} 
                     international
                     value={value} 
                     onChange={setValue}

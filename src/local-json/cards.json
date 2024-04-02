@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "company": "Yahoo!",
+        "phone": "+258 86 123 4567",
+        "email": "john@doe.com"
+    },
+    
+    {
+        "id": 2,
+        "name": "Jane Doe",
+        "company": "Google",
+        "phone":"+258 86 123 7894",
+        "email": "jane@doe.com"
+    }    
+]
